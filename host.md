@@ -14,6 +14,12 @@ Release:        22.04
 Codename:       jammy
 ```
 
+# cmdline
+```
+$ sudo cat /proc/cmdline 
+BOOT_IMAGE=/boot/vmlinuz-5.15.0-1048-nvidia root=UUID=ca648b88-b1f3-47fe-859f-f32e56b91a76 ro sysrq_always_enabled console=ttyS0,115200n8 iommu=pt init_on_alloc=0 intel_iommu=on
+```
+
 # Processor
 ```
 # cat /proc/cpuinfo
